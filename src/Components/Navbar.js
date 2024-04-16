@@ -82,9 +82,9 @@ const Navbar = ({ setActiveTab }) => {
     // <BrowserRouter>
     <header className="header" id="header">
     <section className="wrapper container">
-       <Link to="/" className="brand">
+       <a href="/" className="brand">
        <img src={process.env.PUBLIC_URL + 'assets/images/cloudverse-logo.svg'} alt="logo" />
-       </Link>
+       </a>
        <div className="burger" id="burger">
           <span className="burger-line"></span>
           <span className="burger-line"></span>
@@ -107,35 +107,35 @@ const Navbar = ({ setActiveTab }) => {
                    <li className="submenu-item"><Link to="/platform-overview#tab3" className="submenu-link">Multiple cloud service cost & budgeting</Link></li> 
                    <li className="submenu-item"><Link to="/platform-overview#tab4" className="submenu-link">Recommendations on underutilizing resources</Link></li>  */}
                    <li className="submenu-item">
-                <a href="/platform-overview#tab1" className="submenu-link"  >Asset management & cost tracking</a>
+                <Link to="/platform-overview#tab1" className="submenu-link"  >Asset management & cost tracking</Link>
               </li>
               <li className="submenu-item">
-                <a href="/platform-overview#tab2" className="submenu-link"  >Multiple product & application visibility</a>
+                <Link to="/platform-overview#tab2" className="submenu-link"  >Multiple product & application visibility</Link>
               </li>
               <li className="submenu-item">
-                <a href="/platform-overview#tab3" className="submenu-link"  >Multiple cloud service cost & budgeting</a>
+                <Link to="/platform-overview#tab3" className="submenu-link"  >Multiple cloud service cost & budgeting</Link>
               </li>
               <li className="submenu-item">
-                <a href="/platform-overview#tab4" className="submenu-link"  >Recommendations on underutilizing resources</a>
+                <Link to="/platform-overview#tab4" className="submenu-link"  >Recommendations on underutilizing resources</Link>
               </li>
                 </ul>
              </li>
              <li className="menu-item menu-dropdown">
                 <span className="menu-link" data-toggle="submenu">Discover<i className="bx bx-chevron-down"></i></span>
                 <ul className="submenu">
-                <li className="submenu-item"><Link href="/" className="submenu-link">Feature Link</Link></li>
-                <li className="submenu-item"><Link href="/" className="submenu-link">Feature Link</Link></li>
+                <li className="submenu-item"><Link to="/" className="submenu-link">Feature Link</Link></li>
+                <li className="submenu-item"><Link to="/" className="submenu-link">Feature Link</Link></li>
                    
                 </ul>
              </li>
              <li className="menu-item menu-dropdown">
                 <span className="menu-link" data-toggle="submenu">Resource<i className="bx bx-chevron-down"></i></span>
                 <ul className="submenu">
-                <li className="submenu-item"><Link href="/" className="submenu-link">Blog</Link></li>
+                <li className="submenu-item"><Link to="/blog" className="submenu-link">Blog</Link></li>
                    
                 </ul>
              </li>
-             <li className="menu-item"><Link href="/" className="menu-link">Support</Link></li>
+             <li className="menu-item"><Link to="/" className="menu-link">Support</Link></li>
           </ul>
        </nav>
     </section>

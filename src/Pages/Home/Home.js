@@ -20,8 +20,8 @@ const Home = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-6 home-left">
-                            <h1 className='m-h1'>Multicloud Cost Management. Reimagined.</h1>
-                            <p>Quick, large-scale and simple for cloud operation teams</p>
+                            <h1 className='m-h1' data-aos="fade-up">Multicloud Cost Management. Reimagined.</h1>
+                            <p data-aos="fade-up">Quick, large-scale and simple for cloud operation teams</p>
                             <Popup />
                             <p>Supporting providers:</p>
                             <div className="imgs">
@@ -97,11 +97,11 @@ const Home = () => {
             </section>
 
 
-            <section className="blogs">
+            {/* <section className="blogs">
                 <div className="container">
                     <h2 className='text-center m-h2'>More resources</h2>
                     <div className="blog-main">
-                       {/* <VTab /> */}
+                       <VTab />
 
                     </div>
                 </div>
@@ -110,12 +110,10 @@ const Home = () => {
             <section>
                 <div className="container">
                     <div className="tabb">
-                        {/* <DynamicTabsWithItems />   */}
-                        {/* <Blog/> */}
                         <Blog/>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
         </>

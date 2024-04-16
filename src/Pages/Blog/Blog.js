@@ -45,7 +45,10 @@ const Blog = () => {
     const filteredItems = activeTab === 'all' ? items : items.filter(item => item.type === activeTab);
 
     return (
-        <div className="tab-filter">
+        <section className='r-blog'>
+        <div className="container">
+            <div className="tabb">
+            <div className="tab-filter">
             <div className="tab-buttons">
                 {tabs.map(tab => (
                     <Tab
@@ -65,6 +68,10 @@ const Blog = () => {
                 ))}
             </div>
         </div>
+            </div>
+        </div>
+    </section>
+        
     );
 };
 
