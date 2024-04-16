@@ -131,8 +131,7 @@ const Navbar = ({ setActiveTab }) => {
              <li className="menu-item menu-dropdown">
                 <span className="menu-link" data-toggle="submenu">Resource<i className="bx bx-chevron-down"></i></span>
                 <ul className="submenu">
-                <li className="submenu-item"><Link href="/" className="submenu-link">Feature Link</Link></li>
-                <li className="submenu-item"><Link href="/" className="submenu-link">Feature Link</Link></li>
+                <li className="submenu-item"><Link href="/" className="submenu-link">Blog</Link></li>
                    
                 </ul>
              </li>
